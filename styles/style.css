@@ -7,6 +7,7 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    position: relative;/* m-nav-open absolute 부모기준  */
 }
 header h1 {
     background: yellow;
@@ -28,3 +29,4 @@ header nav ul li a {
 }
 /* 모바일 메뉴 = 데스크탑에서 숨기기 */
 header nav .m_nav {display:none;}
+header .m_nav_open {display:block;}
