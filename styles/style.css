@@ -7,7 +7,7 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    position: relative;/* m-nav-open absolute 부모기준  */
+    position: relative;      /* m-nav-open absolute 부모기준  */
 }
 header h1 {
     background: yellow;

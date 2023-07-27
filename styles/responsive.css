@@ -25,7 +25,6 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로
     header nav .m_nav span:hth-child(2) {}
     header nav .m_nav span:hth-child(3) {}
     /* m_nav open */
-    header nav .m_nav {display:none;}
     header .m_nav_open {
         background: lime;
         display: none; position: absolute;
